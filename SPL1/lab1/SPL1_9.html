@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <script>
+// Решение с использованием объекта
+let dayOfWeekObject = {
+    1: "пн",
+    2: "вт",
+    3: "ср",
+    4: "чт",
+    5: "пт",
+    6: "сб",
+    7: "вс"
+};
+
+let userInputObject = prompt("Введите номер дня недели (1-7):");
+let dayObject = parseInt(userInputObject);
+
+if (dayObject >= 1 && dayObject <= 7) {
+    alert("День недели: " + dayOfWeekObject[dayObject]);
+} else {
+    alert("Некорректный ввод");
+}
+
+let dayOfWeekArray = ["пн", "вт", "ср", "чт", "пт", "сб", "вс"];
+
+let userInputArray = prompt("Введите номер дня недели (1-7):");
+let dayArray = parseInt(userInputArray);
+
+if (dayArray >= 1 && dayArray <= 7) {
+    alert("День недели: " + dayOfWeekArray[dayArray - 1]);
+} else {
+    alert("Некорректный ввод");
+}
+        </script>
+    </body>
+</html>

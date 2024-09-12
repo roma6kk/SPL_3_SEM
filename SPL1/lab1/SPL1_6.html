@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <script>
+let russianGrade = 9; 
+let mathGrade = 10; 
+let englishGrade = 6;
+
+let failedExams = []; 
+
+if (russianGrade < 7) {
+  failedExams.push("Русский");
+}
+
+if (mathGrade < 7) {
+  failedExams.push("Математика");
+}
+
+if (englishGrade < 7) {
+  failedExams.push("Английский");
+}
+
+if (failedExams.length === 3) {
+  alert("Студент отчислен");
+} else if (failedExams.length > 0) {
+  alert("Студенту предстоит пересдача по следующим предметам: " + failedExams.join(", "));
+} else {
+  alert("Студент переведен на следующий курс");
+}
+        </script>
+    </body>
+</html>

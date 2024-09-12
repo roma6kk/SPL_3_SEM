@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <script>
+function calcSquares (lengthSquareA, widthSquareA, sideSquareB) {
+    const areaA = lengthSquareA * widthSquareA;
+    const areaB = sideSquareB * sideSquareB;
+    return Math.floor(areaA / areaB);
+}
+
+let lengthA = 45;
+let widthA = 21;
+let sideB = 5;
+
+let answer = calcSquares(lengthA, widthA, sideB)
+alert(answer + " квадратов поместится в четырехугольник A");            
+        </script>
+    </body>
+</html>

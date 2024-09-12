@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <script>
+const teacherName = "Марина Кудлацкая";
+
+function checkName() {
+    const userInput = prompt("Введите имя (можно ФИО):");
+
+    const teacherNameLower = teacherName.toLowerCase();
+
+    const userInputLower = userInput.toLowerCase();
+
+    if (userInputLower.includes(teacherNameLower.split(" ")[0].toLowerCase())) {
+        alert("Введенные вами данные верные.");
+    } else {
+        alert("Введенные вами данные неверные.");
+    }
+}
+checkName();
+
+        </script>
+    </body>
+</html>

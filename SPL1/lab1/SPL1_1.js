@@ -1,0 +1,7 @@
+let a = 5;// Числовой тип данных (number)
+let name = "Name";// Строка (string)
+let i = 0;// Числовой тип данных (number)
+let double = 0.23;// Числовой тип данных (number)
+let result = 1/0;// Числовой тип данных (Infinity)
+let answer = true;// Булевый тип (boolean)
+let no = null;// Специальное значение null (Результатом вызова typeof null является "object")
