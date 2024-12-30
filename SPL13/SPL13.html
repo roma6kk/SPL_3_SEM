@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список дел</title>
+    <link rel="stylesheet" href="SPL13.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Список дел</h1>
+        <div class="input-group">
+            <input type="text" id="taskInput" placeholder="Введите название задачи">
+            <button id="addButton">Добавить</button>
+        </div>
+        
+        <div class="filter-buttons">
+            <button id="showAll">Показать все</button>
+            <button id="showCompleted">Показать выполненные</button>
+            <button id="showPending">Показать невыполненные</button>
+        </div>
+
+        <ul id="taskList"></ul>
+    </div>
+    <script src="SPL13.js"></script>
+</body>
+</html>
